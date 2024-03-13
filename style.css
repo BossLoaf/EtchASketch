@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(#b1030d, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sketchScreen {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.column {
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3;
+}
+
+#pageTitle {
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 20px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    justify-content: center;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#colorOptions {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+}
